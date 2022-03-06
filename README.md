@@ -37,7 +37,7 @@ Una vez hecho el paso anterior, tendrás tu repositorio personal de la práctica
 
 
 ### Modificar el código y guardar los cambios
-Es el momento de empezar a modificar ficheros. Abre el fichero README.md (este fichero) y busca la línea 80. Debes cambiar el enlace que usa el botón para que apunte a tu repositorio y no al de la asignatura.
+Es el momento de empezar a modificar ficheros. Abre el fichero README.md (este fichero) y busca la línea 95. Debes cambiar el enlace que usa el botón para que apunte a tu repositorio y no al de la asignatura.
 Una vez lo hayas modificado, guarda el fichero, y ejecuta los siguientes comandos en el terminal:
 
 ```

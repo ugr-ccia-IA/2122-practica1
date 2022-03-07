@@ -71,9 +71,9 @@ El propio GitHub pone a tu disposición un [breve curso](https://classroom.githu
 
 
 ## Realización de la práctica
-El [guión](https://pradogrado2122.ugr.es/mod/resource/view.php?id=288657) contiene toda la información sobre en qué consiste la práctica1. Leelo con atención.
+El guión (disponible en [PRADO](https://pradogrado2122.ugr.es/)) contiene toda la información sobre en qué consiste la práctica1. Leelo con atención.
 
-También tienes a tu disposición una pequeña [presentación](https://pradogrado2122.ugr.es/mod/resource/view.php?id=288664) de resumen, y un [tutorial](https://pradogrado2122.ugr.es/mod/resource/view.php?id=288658). Debes revisarlos pues continen los primeros pasos a realizar.
+Junto a ellos, también tienes a tu disposición una pequeña presentación de resumen, y un tutorial. Debes revisarlos pues continen los primeros pasos a realizar.
 
 
 ### Instalación local (linux)

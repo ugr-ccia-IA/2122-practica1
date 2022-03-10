@@ -59,7 +59,7 @@ file(GLOB SOURCES_GLUI "src/glui/*.cpp" "src/glui/*.cxx" "src/glui/*.cc")
 file(GLOB SOURCES_COMPORTAMIENTOS "src/comportamientos/*.cpp" "src/comportamientos/*.cxx" "src/comportamientos/*.cc" "Comportamientos_Jugador/*.cpp")
 include_directories("include")
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++11 -O3")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
 

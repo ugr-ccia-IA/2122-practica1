@@ -80,7 +80,7 @@ Action Entidad::think(int acc, vector<vector<unsigned char>> vision, int level)
       }
       if (level >= 2)
       {
-        if (getTiempo() > 0 and !hasToNotify())
+        if (getTiempo() >= 0 and !hasToNotify())
         {
           sensor.sentido = norte;
         }

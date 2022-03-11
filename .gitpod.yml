@@ -10,4 +10,4 @@ ports:
   onOpen: ignore
 tasks:
 - init: cmake . && make
-  command: ./Belkan
+  command: ./practica1

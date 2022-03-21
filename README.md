@@ -39,7 +39,7 @@ Una vez hecho el paso anterior, tendrás tu repositorio personal de la práctica
 
 
 ### Modificar el código y guardar los cambios
-Es el momento de empezar a modificar ficheros. Abre el fichero README.md (este fichero) y busca la línea 95. Debes cambiar el enlace que usa el botón para que apunte a tu repositorio y no al de la asignatura.
+Es el momento de empezar a modificar ficheros. Abre el fichero README.md (este fichero) y busca la línea 97. Debes cambiar el enlace que usa el botón para que apunte a tu repositorio y no al de la asignatura.
 Una vez lo hayas modificado, guarda el fichero, y ejecuta los siguientes comandos en el terminal estando dentro de la carpeta `practica1`:
 
 ```
@@ -101,5 +101,8 @@ Una vez que el servidor remoto esté creado (la primera vez tardará un rato en 
 Si no se abre la ventana, copia la url del navegador y anteponle `6080-`. 
 Por ejemplo, si la URL del IDE es `https://USUARIO-REPO-zzzzz.ws-eu34.gitpod.io` abriríamos en una nueva pestaña `https://6080-USUARIO-REPO-zzzzz.ws-eu34.gitpod.io`.
 
-
 Si trabajas con Gitpod, ¡no olvides hacer commit de todos tus cambios para que se vayan guardando en tu repositorio!
+
+
+## Más información
+Hemos creado un [fichero con preguntas frecuentes](./FAQ.md) que han ido apareciendo en las distintas sesiones de prácticas.

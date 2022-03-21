@@ -13,7 +13,9 @@ Hay varias maneras de conectarte desde tu ordenador a GitHub. Si utilizas un nav
 
 
 ### 2. Crear tu copia personal del repositorio de la asignatura
-Cada estudiante debe tener su propia copia del repositorio para poder trabajar sobre ella. En adelante, a tu copia la llamaremos *origin*, y al repositorio original de la asignatura lo llamaremos *upstream* (NOTA: Estas son convenciones que la mayoría de los desarrolladores usan, pero los puedes llamar como quieras). 
+Cada estudiante debe tener su propia copia (privada) del repositorio para poder trabajar sobre ella. En adelante, a tu copia la llamaremos *origin*, y al repositorio original de la asignatura lo llamaremos *upstream* (NOTA: Estas son convenciones que la mayoría de los desarrolladores usan, pero los puedes llamar como quieras). 
+
+> La forma usual de crear tu copia del repositorio es realizando un *fork*. Sin embargo, dado que realizar un *fork* de un repositorio con visibilidad pública obliga al que la copia sea también pública, nosotros usaremos un procedimiento diferente que nos permite que nuestra copia del repositorio sea privada.
 
 Para realizar la copia, una vez que tengas creada tu cuenta en GitHub, haz click en <https://github.com/new/import> y rellena tal y como se ve en la imagen de abajo. El repositorio que quieres importar es `https://github.com/ugr-ccia-IA/practica1`. ¡Asegúrate de que tu repositorio es privado!
 
@@ -101,4 +103,3 @@ Por ejemplo, si la URL del IDE es `https://USUARIO-REPO-zzzzz.ws-eu34.gitpod.io`
 
 
 Si trabajas con Gitpod, ¡no olvides hacer commit de todos tus cambios para que se vayan guardando en tu repositorio!
-

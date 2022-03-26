@@ -227,3 +227,17 @@ void MonitorJuego::PintaEstadoMonitor()
   }
   cout << "*********************************************\n";
 }
+
+void MonitorJuego::init_casillas_especiales(unsigned int f, unsigned int c){
+  unsigned char celda_inicial;
+  celda_inicial = getMapa()->getCelda(f, c);
+  if (celda_inicial == 'D'){
+    get_entidad(0)->Cogio_Zapatillas(true);
+  }
+  else if (celda_inicial == 'K'){
+    get_entidad(0)->Cogio_Bikini(true);
+  }
+  else if (celda_inicial == 'G'){
+    get_entidad(0)->notify();
+  }
+}

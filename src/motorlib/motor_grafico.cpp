@@ -410,6 +410,7 @@ void botonConfigurarSimCANCEL(int valor)
   botonConfigurarSimOK(1);
   MMmode = 0;
   panelSelecMapaConfig->close();
+  monitor.init_casillas_especiales(monitor.get_entidad(0)->getFil(), monitor.get_entidad(0)->getCol());
 }
 
 void botonConfigurarNuevoMapaCB(int valor)
@@ -756,6 +757,8 @@ void lanzar_motor_grafico_verOnline(int argc, char **argv, EnLinea &argumentos)
   monitor.get_entidad(0)->Cogio_Zapatillas(false);
   monitor.setPasos(1);
   monitor.setRetardo(0);
+  
+  monitor.init_casillas_especiales(argumentos.fil_inicial, argumentos.col_inicial);
 
   glutInit(&argc, argv);
   // Mode Setting

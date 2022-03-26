@@ -60,6 +60,8 @@ int main(int argc, char ** argv){
 
     monitor.juegoInicializado();
 
+    monitor.init_casillas_especiales(atoi(argv[4]), atoi(argv[5]));
+
     lanzar_motor_juego2(monitor); // Se lanza el juego
   }
   exit(EXIT_SUCCESS);

@@ -49,6 +49,7 @@ bool actuacionJugador(unsigned char celda_inicial, unsigned char celda_fin, Acti
         monitor.get_entidad(0)->setHitbox(true);
         monitor.get_entidad(0)->Cogio_Bikini(false);
         monitor.get_entidad(0)->Cogio_Zapatillas(false);
+        monitor.init_casillas_especiales(mix, miy);
         // monitor.finalizarJuego();
         // monitor.setMostrarResultados(true);
 
